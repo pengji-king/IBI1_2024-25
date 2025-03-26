@@ -1,0 +1,8 @@
+reflection on practical 6: modelling infections
+this practical help us understand the pandemic through computational tools simulate.
+what i have learnt:
+    stochastic and binomial distribution
+    spatial dynamics in 2D models
+challenges:
+    negative susceptible populations. and it was resolved by enforcing non-negative values
+This exercise transformed abstract epidemiological concepts into tangible computational experiments. 
