@@ -16,4 +16,15 @@ X = True
 Y = False
 W = X and Y
 print(W)
-#W is False
+#W is False based on the truth table as follows
+#   A       B       A and B
+#   true    true    true
+#   true    false   false
+#   false   true    false
+#   false   false   false
+
+#   A       B       A or B
+#   true    true    true
+#   true    false   true
+#   false   true    true
+#   false   false   false

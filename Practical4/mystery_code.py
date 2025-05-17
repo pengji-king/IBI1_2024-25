@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:it makes a loop, while in this loop there will be two random int be stored in two variables first_n and second_n. Then compare thses two nubmber to see whether there are equal or not. if not the loop will continue again, but if the they are equal it will break from the whle loop. and the variable progress is used to count how many loops it uses to get two equal random numbers. 
+# Answer:it makes a loop, while in this loop there will be two random int be stored in two variables first_n and second_n. Then compare thses two nubmber(between 1 and 6) to see whether there are equal or not. if not the loop will continue again, but if the they are equal it will break from the whle loop. and the variable progress is used to count how many loops it uses to get two equal random numbers. 
 
 # Import libraries
 # randint allows drawing a random number,
