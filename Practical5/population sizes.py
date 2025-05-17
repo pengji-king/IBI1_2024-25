@@ -4,8 +4,13 @@ import matplotlib.pyplot as plt #import graph drawing package
 
 uk_countries = [57.11, 3.13, 1.91, 5.45]
 cn_provinces = [65.77, 41.88, 45.28, 61.27, 85.15]
-print(uk_countries)
-print(cn_provinces)#print two lists of population
+
+# print sorted population from big to small
+print("UK Countries Population (sorted):")
+print(sorted(uk_countries, reverse=True))
+
+print("\nZhejiang-neighbouring Provinces Population (sorted):")
+print(sorted(cn_provinces, reverse=True))
 
 countries = 'England','Wales','Northern Ireland','Scotland'
 provinces = 'Zhejiang','Fujian','Jiangxi','Anhui','Jiangsu'
