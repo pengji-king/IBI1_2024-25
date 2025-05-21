@@ -1,5 +1,6 @@
 #create a class called patient
 class patients:
+    #it contains name age dat history
     def __init__(self, name, age, date, history):
         self.name = name
         self.age = age
@@ -11,6 +12,7 @@ class patients:
         print(info)
         return info
 
+#example
 patient1 = patients("Jay",18, "2025.03.12","no medicine history")
 patients.describle(patient1)
         

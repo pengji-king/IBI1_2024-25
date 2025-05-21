@@ -9,7 +9,6 @@ def drug_culculator (weight, strength):
         print("error")
     return volume
 
+#here is an example 
 volume = drug_culculator(80,120)
 print(volume)
-
-
