@@ -12,7 +12,7 @@ outbreak = np.random.choice(100, 2)
 population[outbreak[0], outbreak[1]] = 1
 
 # Simulation loop
-for t in range(timesteps):
+for t in range(timesteps+1):
     infected = np.argwhere(population == 1)
     new_infections = []
     
