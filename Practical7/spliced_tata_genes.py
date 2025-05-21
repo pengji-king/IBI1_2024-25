@@ -1,5 +1,5 @@
 import re  
-splice_comb = input("What is your splice_combination (GTAG, GCAG,ATAC):")  
+splice_comb = input("What is your splice_combination (GTAG, GCAG, ATAC):")  
 file_path = "tata_genes.fa"  # Define the file path
 donor = splice_comb[0:2]
 acceptor = splice_comb[2:4]
@@ -57,12 +57,12 @@ def count_tata(seq):
 genes = read_fasta(file_path)  
 spliced_genes = {}  
 
+
 with open(f"{splice_comb}_spliced_genes.fa", "w") as output:  
     for gene_name, sequence in genes.items():  
+        sequence = ''.join(sequence)
         if splice(sequence):  
             spliced_genes[gene_name] = sequence  
             count = count_tata(sequence)  
             output.write(f">{gene_name}_TATAbox_number: {count}\n")  
             output.write(f"{sequence}\n")  
-
-output.close() 
